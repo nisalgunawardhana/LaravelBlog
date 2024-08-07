@@ -1,0 +1,36 @@
+.bg-green{
+    background-color: #00a65a !important;
+}
+
+.navbarf{
+    padding: 0px 0px !important;
+}
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-right: 1px solid !important;
+    padding: 8px 18px !important;
+
+
+}
+
+/* Card Shadow */
+.card-shadow {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 5px;
+}
+
+/* Category Heading */
+.category-heading {
+  padding: 10px 12px;
+  border-left: 6px solid #000;
+  background-color: #ddd;
+}
+
+/* Post Heading */
+.post-heading {
+  font-size: 26px;
+  color: #000;
+}
+
+

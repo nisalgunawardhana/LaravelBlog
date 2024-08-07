@@ -31,7 +31,7 @@ class CategoryFormRequest extends FormRequest
             'meta_title' => ['required','string','max:255'],
             'meta_description' => ['required'],
             'meta_keywords' => ['required','string'],
-            'navbar_status' => ['required'],
+            'navbar_status' => ['nullable'],
             'status' => ['nullable'],
             'created_by' => ['nullable'],
         ]; 
