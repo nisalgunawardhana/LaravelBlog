@@ -20,7 +20,9 @@
                 <li class="breadcrumb-item active">Categories</li>
             </ol>
 
-            <table class="table table-bordered mt-4 "  >
+            <div class="table-responsive">
+
+            <table id="myDataTable" class="table table-bordered mt-4 "  >
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -44,7 +46,11 @@
                         <td>
                         
                             <a href="{{ url('admin/edit-category/'.$item->id) }}" class="btn btn-info">Edit</a>
-                            <a href="{{ url('admin/delete-category/'.$item->id) }}" class="btn btn-danger">Delete</a>
+                            <a href="{{ url('admin/delete-category/'.$item->id) }}" 
+                                class="btn btn-danger"
+                                onclick="return confirm('Are you sure you want to delete this category?');">
+                            Delete
+                            </a>
 
                         </td>
                     </tr>
@@ -52,6 +58,7 @@
                 </tbody>
 
             </table>
+            </div>
     </div>
     </div>
     </div>
